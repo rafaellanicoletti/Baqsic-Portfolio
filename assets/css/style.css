@@ -75,6 +75,7 @@ background-color: white;
      text-decoration: none;
  }
 
+
  form {
      margin-left: 20px;
      padding-bottom: 30px;
@@ -98,4 +99,15 @@ background-color: white;
      background-color: #4aaaa5;
      font-size: 15pt;
      color: #ffffff
+ }
+
+ /* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+
+    padding: 20px;
+}
+ 
+ .row {
+     background-color: #ffffff;
  }
