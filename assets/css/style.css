@@ -1,9 +1,11 @@
 /*Start of CSS*/
+body, nav, header, p, h1, h2 {
 
+
+}
 header {
     background-color: #ffffff;
-    /* height: 100px; */
-    /* margin: 0 auto; */
+    
 }
 
 h1 {
@@ -12,7 +14,7 @@ h1 {
     width: 300px;
     padding: 20px;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    /* margin-left: 233px; */
+    margin: 0 0 20px 0;
   
 }
 
@@ -31,8 +33,8 @@ div {
 body {
     color: #777777;
     background-color: white;
-    /* border-color: #dddddd; */
     background: url("https://pbs.twimg.com/media/D4doEEJWwAAyHhp.png:large");
+    margin: 0;
     
 }
 
@@ -63,5 +65,12 @@ background-color: white;
  main {
      width: 960px;
      background-color: white;
-     margin: 0 auto ;
+     margin-left: auto ;
+     margin-right: auto;
  }
+
+ a {
+     color: #666666;
+     text-decoration: none;
+ }
+
